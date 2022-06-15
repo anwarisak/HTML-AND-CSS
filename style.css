@@ -1,0 +1,116 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main-page{
+    width: 100%;
+    height: 85vh;
+    background-image: url(/img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.cover{
+
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    position: relative;
+}
+
+nav{
+
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+nav ul :last-child{
+    background-color: white;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+nav ul li{
+    margin-left: 20px;
+    
+    list-style: none;
+
+}
+
+ul li :last-child{
+    background-color: white;
+    padding: 10px 20px;
+ 
+}
+.creative{
+    text-align: center;
+    font-size: 50px;
+    top: 20%;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+/* grid section */
+
+.grid{
+    width: 100%;
+    height: 80vh;
+    
+    
+    display: flex;
+    overflow: hidden;
+}
+
+.grid-left{
+    width: 50%;
+    
+    text-align:left;
+    padding: 80px 80px;
+}
+
+
+
+.grid-text {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.text{
+    margin-top: 10px;
+    line-height: 20px;
+    padding-bottom: 20px;
+
+}
+
+.btn-one{
+   font-size: 20PX;
+   font-family:Arial, Helvetica, sans-serif;
+   background: none;
+   text-transform: capitalize;
+}
+.grid-img{
+    width: 50%;
+    height: 30px;
+    background-color: aliceblue;
+    
+}
